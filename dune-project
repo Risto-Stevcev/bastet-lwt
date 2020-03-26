@@ -1,0 +1,28 @@
+(lang dune 2.4.0)
+(name bastet_lwt)
+(source (github Risto-Stevcev/bastet))
+(license BSD-3-Clause)
+(authors "Risto Stevcev")
+(maintainers "me@risto.codes")
+(generate_opam_files true)
+(implicit_transitive_deps false)
+(using mdx 0.1)
+
+(package
+ (name bastet_lwt)
+ (synopsis "Lwt implementations for bastet")
+ (documentation "https://risto-stevcev.github.io/bastet-lwt")
+ (tags
+  ("category theory" "abstract algebra" "algebra" "cats" "lwt"))
+ (depends
+  (ocaml (>= 4.06.1))
+  (bastet (>= 1.2.4))
+  (lwt (>= 5.2.0))
+  (alcotest (and (>= 1.0.1) :with-test))
+  (alcotest-lwt (and (= 1.0.1) :with-test))
+  (merlin (and (>= 3.3.3) :with-test))
+  (ocamlformat (and (>= 0.13.0) :with-test))
+  (mdx (and (>= 1.6.0) :with-test))
+  (bisect_ppx (and (>= 2.1.0) :with-test))
+  (odoc (and (>= 1.5.0) :with-doc))
+  (dune (>= 2.4.0))))
