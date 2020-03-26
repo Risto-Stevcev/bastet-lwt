@@ -14,8 +14,6 @@ depends: [
   "lwt" {>= "5.2.0"}
   "alcotest" {>= "1.0.1" & with-test}
   "alcotest-lwt" {= "1.0.1" & with-test}
-  "merlin" {>= "3.3.3" & with-test}
-  "ocamlformat" {>= "0.13.0" & with-test}
   "mdx" {>= "1.6.0" & with-test}
   "odoc" {>= "1.5.0" & with-doc}
   "dune" {>= "2.4.0"}

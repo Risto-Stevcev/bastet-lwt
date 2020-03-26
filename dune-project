@@ -20,8 +20,6 @@
   (lwt (>= 5.2.0))
   (alcotest (and (>= 1.0.1) :with-test))
   (alcotest-lwt (and (= 1.0.1) :with-test))
-  (merlin (and (>= 3.3.3) :with-test))
-  (ocamlformat (and (>= 0.13.0) :with-test))
   (mdx (and (>= 1.6.0) :with-test))
   (odoc (and (>= 1.5.0) :with-doc))
   (dune (>= 2.4.0))))
