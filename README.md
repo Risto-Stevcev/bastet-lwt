@@ -9,6 +9,10 @@ Lwt implementations for bastet
 opam install bastet_lwt
 ```
 
+## Documentation
+
+See [documentation][1]
+
 
 ## Example
 
@@ -36,6 +40,8 @@ val list_of_promises : string Lwt.t list = [<abstr>; <abstr>; <abstr>]
 
 ## License
 
-See [LICENSE][1]
+See [LICENSE][2]
 
-[1]: https://github.com/Risto-Stevcev/bastet-lwt/blob/master/LICENSE
+
+[1]: http://risto-stevcev.github.io/bastet-lwt
+[2]: https://github.com/Risto-Stevcev/bastet-lwt/blob/master/LICENSE
