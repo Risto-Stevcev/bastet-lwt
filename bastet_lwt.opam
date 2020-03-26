@@ -10,7 +10,7 @@ doc: "https://risto-stevcev.github.io/bastet-lwt"
 bug-reports: "https://github.com/Risto-Stevcev/bastet-lwt/issues"
 depends: [
   "ocaml" {>= "4.06.1"}
-  "bastet" {>= "1.2.4"}
+  "bastet" {>= "1.2.5"}
   "lwt" {>= "5.2.0"}
   "alcotest" {>= "1.0.1" & with-test}
   "alcotest-lwt" {= "1.0.1" & with-test}

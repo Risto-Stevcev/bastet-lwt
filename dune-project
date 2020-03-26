@@ -16,7 +16,7 @@
   ("category theory" "abstract algebra" "algebra" "cats" "lwt"))
  (depends
   (ocaml (>= 4.06.1))
-  (bastet (>= 1.2.4))
+  (bastet (>= 1.2.5))
   (lwt (>= 5.2.0))
   (alcotest (and (>= 1.0.1) :with-test))
   (alcotest-lwt (and (= 1.0.1) :with-test))
