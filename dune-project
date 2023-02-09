@@ -1,4 +1,4 @@
-(lang dune 2.4.0)
+(lang dune 2.4)
 (name bastet_lwt)
 (source (github Risto-Stevcev/bastet-lwt))
 (license BSD-3-Clause)
